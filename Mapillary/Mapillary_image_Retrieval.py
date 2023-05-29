@@ -1,5 +1,5 @@
-import pandas as pd # for dataframes, converting str to a df
-import io # preparing a string stream
+import pandas as pd 
+import io 
 import mapillary.interface as mly
 import time
 import glob
@@ -7,10 +7,8 @@ import os
 from requests import HTTPError
 import random
 import requests
-from tqdm import tqdm  # Import tqdm for the progress bar
+from tqdm import tqdm  
 from requests.exceptions import RequestException
-#from multiprocessing import Pool
-# import the geojson model from mapillary
 from mapillary.models.geojson import GeoJSON
 import json
 from mapillary.models.client import Client
