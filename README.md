@@ -15,7 +15,7 @@ Mapillary Street-level Sequences (MSLS) is a large-scale long-term place recogni
 
 ## 🔥 Using MSLS
 
-We've included an implementation of a PyTorch Dataset in [datasets/msls.py](mapillary_sls/datasets/msls.py).
+We've included an implementation of a PyTorch Dataset in [Mapillary/Mapillary_image_Retrieval.py](Mapillary/Mapillary_image_Retrieval.py).
 It can be used for evaluation (returning database and query images) or for training (returning triplets).
 Check out the [demo](demo.ipynb) to understand its usage.
 
