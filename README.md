@@ -18,6 +18,7 @@ Mapillary Street-level Sequences (MSLS) is a large-scale long-term place recogni
 To reproduce the data, we've included all of the steps described in the paper, as follows:
 
 - Gathering all images in the neighborhood of specific POI coordinate: [Mapillary/Mapillary_image_Retrieval.py](Mapillary/Mapillary_image_Retrieval.py).
+- Filtering images based on POIs building footprints: [Mapillary/Filtering_POI_Polygon_based_Approach.py](Mapillary/Filtering_POI_Polygon_based_Approach.py)
 
 
 
