@@ -104,7 +104,7 @@ def filter_mapillary(csv_file_path):
   print('#'*50)      
   
   gdf_final = filtered_df.copy() 
-  csv_path = '/home/negin/March 2023/USCANADA/Finalsafegraph-clean/Final JSON file Gathered/CSV Folders for true and totals/True_CSVs-after_15_select/'
+  csv_path = '/#####/' # Change the path to your directory
 
   gdf_final.to_csv(csv_path + csv_file_name)
 
