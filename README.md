@@ -15,16 +15,6 @@ To reproduce the data, we've included all of the steps described in the paper, a
 - Gathering all images in the neighborhood of specific POI coordinate: [Mapillary/Mapillary_image_Retrieval.py](Mapillary/Mapillary_image_Retrieval.py).
 - Filtering images based on POIs building footprints: [Mapillary/Filtering_POI_Polygon_based_Approach.py](Mapillary/Filtering_POI_Polygon_based_Approach.py)
 
-
-
-
-## 📦 Package structure
-
-- `images_vol_X.zip`: images, split into 6 parts for easier download.
-- `metadata.zip`: a single zip archive containing the metadata.
-- `patch_vX.Y.zip`: unzip any patches on top of the dataset to upgrade.
-
-
 The meta files include the following information:
 
 - **raw.csv**: raw data recorded during capture
