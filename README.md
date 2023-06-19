@@ -1,5 +1,5 @@
 # Augmented Street-Level  Imagery with Points of Interest (Data and Resources Track)
-![Image Description](Images/The count of POIs in 10 US regions.png)
+![Unique count of images by cities marked by green temperature diverging density. Map coloring shows 2018 population by State. Red images show religious organizations and blue shows gasoline stations with convenience stores.]([Images/The count of POIs in 10 US regions.png](https://github.com/NeginZarbakhsh/Augmented-Street-Level-Imagery-with-Points-of-Interest/blob/main/Images/The%20count%20of%20POIs%20in%2010%20US%20regions.png))
 ## Description
 
 This repository contains the code and resources related to the research paper titled "Augmented Street-Level  Imagery with Points of Interest (Data and Resources Track)" The paper explores a method to generate new street-level imagery data using street-view images and annotating them with Points of Interest (POIS). This README provides an overview of the project, installation instructions, usage guidelines, and contact information for further inquiries.
