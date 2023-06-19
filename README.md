@@ -1,5 +1,5 @@
 # Augmented Street-Level  Imagery with Points of Interest (Data and Resources Track)
-
+![Image Description](Images/The count of POIs in 10 US regions.png)
 ## Description
 
 This repository contains the code and resources related to the research paper titled "Augmented Street-Level  Imagery with Points of Interest (Data and Resources Track)" The paper explores a method to generate new street-level imagery data using street-view images and annotating them with Points of Interest (POIS). This README provides an overview of the project, installation instructions, usage guidelines, and contact information for further inquiries.
