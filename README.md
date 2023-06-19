@@ -43,7 +43,7 @@ The meta files include the following information:
 - Geometry Coordinates: Latitude and longitude of camera
 - Captured-at: Capture time (hour, day, month, year)
 - Others: merge_cc, atomic_scale, mesh.id, mesh.url, sfm_cluster.id, sfm_cluster.url
-- 
+  
 ###### Calculated parameters: 
 - x_meters_camera_coordinates, y_meters_camera_corrdinates: Camera coordinates in UTM system
 - Angle: The right angle that should capture POIs in the Fields of view
@@ -58,16 +58,15 @@ The meta files include the following information:
 #### Road-related Parameters:
 In OpenStreetMap (OSM), road attributes provide information about various aspects of a road segment. Here's an explanation of the commonly used road attributes in OSM:
 
-
-- road_attributes(highway): The highway tag describes the type or classification of a road. It indicates the functional class of the road and determines its importance, size, and usage. Some common values for the highway tag include:
+- road_attributes (highway): The highway tag describes the type or classification of a road. It indicates the functional class of the road and determines its importance, size, and usage. Some common values for the highway tag include:
 	- motorway: A high-speed, controlled-access road typically designed for long-distance travel, often with multiple lanes and grade-separated interchanges.
 	- primary: Major roads connecting cities, towns, or important destinations.
 	- secondary: Roads connecting smaller towns or providing access to local destinations.
 	- residential: Roads primarily used for residential areas.
 	- service: Roads serving specific purposes, such as access roads, driveways, or private roads.
 - road_attributes(road_lenght): It refers to the length of a road segment. It provides the measured or estimated length of the road in a specific unit (e.g., meters or kilometers). This attribute helps in understanding the spatial extent or coverage of a road segment
-- road_attributes(road_geometry) : This attribute describes the geometric shape or layout of a road segment. It includes information about the road's curvature, alignment, and any notable features, such as bends, intersections, or roundabouts. This attribute helps in visualizing the physical characteristics of the road segment.
-- road_attributes(road_name) : This attribute represents the name assigned to a road segment. It typically includes the official or commonly recognized name of the road, such as "Main Street" or "Highway 201." The road name attribute helps in identifying and referencing specific roads within the map data.
+- road_attributes(road_geometry): This attribute describes the geometric shape or layout of a road segment. It includes information about the road's curvature, alignment, and any notable features, such as bends, intersections, or roundabouts. This attribute helps in visualizing the physical characteristics of the road segment.
+- road_attributes(road_name): This attribute represents the name assigned to a road segment. It typically includes the official or commonly recognized the name of the road, such as "Main Street"." The road name attribute helps in identifying and referencing specific roads within the map data.
 
 #### Detected Objects Parameters:
 
