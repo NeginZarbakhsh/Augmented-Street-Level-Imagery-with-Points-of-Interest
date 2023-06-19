@@ -46,7 +46,8 @@ The meta files include the following information:
 ###### Calculated parameters: 
 - x_meters_camera_coordinates, y_meters_camera_corrdinates: Camera coordinates in UTM system
 - Angle: The right angle that should capture POIs in the Fields of view
-- Angle_diff: The difference between the angle and the current one 
+- Angle_diff: The difference between the angle and the current one
+- Distance: Distance between camera location and the midpoint of the POI.
 
 #### POI-related Parameters:
 
