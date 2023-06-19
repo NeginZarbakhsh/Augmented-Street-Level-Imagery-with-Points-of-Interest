@@ -13,7 +13,7 @@ This repository contains the code and resources related to the research paper ti
 To reproduce the data, we've included all of the steps described in the paper, as follows:
 
 - Gathering all images in the neighborhood of specific POI coordinate: [Mapillary/Mapillary_image_Retrieval.py](Mapillary/Mapillary_image_Retrieval.py).
-- Filtering images based on POIs building footprints: [Mapillary/Filtering_POI_Polygon_based_Approach.py](Mapillary/(Mapillary/Filtering_POI_Polygon_based_Approach.py).
+- Filtering images based on POIs building footprints: [Mapillary/Filtering_POI_Polygon_based_Approach.py](Mapillary/Filtering_POI_Polygon_based_Approach.py).
 - Selecting selective images for balance data:[Mapillary/filtering_selective_images.py](Mapillary/filtering_selective_images.py).
 - Adding road network from Open Street Map (OSM): [Mapillary/Adding-road-attributes.py](Mapillary/Adding-road-attributes.py)
 - Detect Objects through Mapillary API: [Mapillary/Mapillary_detectedobjects.py](Mapillary/Mapillary_detectedobjects.py)
@@ -33,4 +33,5 @@ The meta files include the following information:
 
 This repository is MIT licensed.
 
-
+## Contact
+For any questions, feedback, or inquiries related to this project, please contact [negin.zarbakhsh@ucdconnect.ie].
