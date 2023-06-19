@@ -69,7 +69,14 @@ In OpenStreetMap (OSM), road attributes provide information about various aspect
 - road_attributes(road_name): This attribute represents the name assigned to a road segment. It typically includes the official or commonly recognized the name of the road, such as "Main Street"." The road name attribute helps in identifying and referencing specific roads within the map data.
 
 #### Detected Objects Parameters:
-
+To normalize the detected objects, each x and y coordinate is divided by the extent of 4096. This normalization ensures that the coordinates are within the range of [0, 1]. To obtain the exact pixel coordinates, we multiplied the normalized x-coordinate by the width of the image containing the detection and multiply the normalized y-coordinate by the height of the image. This process allows for mapping the normalized coordinates to their corresponding pixel positions within the image.
+- id 
+- detections.pixel_coords_normalized 
+- detections.geometry
+- detection_coordinates
+- detections.value: detected objects such as object--sign--store, object--junction-box, object--street-light , ... (604 unique objects in total)
+- segmentation_id
+- segmentation_type
 
 ## ⚖ Legal
 
