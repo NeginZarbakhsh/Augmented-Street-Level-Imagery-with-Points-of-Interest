@@ -2,13 +2,13 @@
 
 ## Description
 
-? is a  ?dataset that containsstreet-level images.
+This repository contains the code and resources related to the research paper titled "Augmented Street-Level  Imagery with Points of Interest (Data and Resources Track)" The paper explores a method to generate new street-level imagery data using street-view images and annotating them with Points of Interest (POIS). This README provides an overview of the project, installation instructions, usage guidelines, and contact information for further inquiries.
 
-- ⬇️ Download: 
+- ⬇️ Download: You can download the dataset from url https://zenodo.org/deposit/8020056
 - 📄 Paper: 
 
 
-## 🔥 Data Curation - Mapillary Street-view Images
+## 🔥 Data Curation Code - Augment Mapillary Street-level Imagery with POIs
 
 To reproduce the data, we've included all of the steps described in the paper, as follows:
 
@@ -16,7 +16,7 @@ To reproduce the data, we've included all of the steps described in the paper, a
 - Filtering images based on POIs building footprints: [Mapillary/Filtering_POI_Polygon_based_Approach.py](Mapillary/Filtering_POI_Polygon_based_Approach.py).
 - Selecting selective images for balance data:[Mapillary/filtering_selective_images.py](filtering_selective_images.py).
 - Adding road network from Open Street Map (OSM): [Mapillary/Adding-road-attributes.py] (Adding-road-attributes.py)
-- Detecd Objects through Mapillary API: [Mapillary/Mapillary_detectedobjects.py] (Mapillary_detectedobjects.py)
+- Detect Objects through Mapillary API: [Mapillary/Mapillary_detectedobjects.py] (Mapillary_detectedobjects.py)
 
 The meta files include the following information:
 
