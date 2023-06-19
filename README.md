@@ -1,4 +1,4 @@
-# paper4--paper
+# Augmented Street-Level  Imagery with Points of Interest (Data and Resources Track)
 
 ## Description
 
