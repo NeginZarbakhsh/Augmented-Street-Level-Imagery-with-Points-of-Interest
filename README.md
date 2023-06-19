@@ -24,7 +24,6 @@ To set up the environment for running the code, follow these steps:
 	- Selecting selective images for balance data:[Mapillary/filtering_selective_images.py](Mapillary/filtering_selective_images.py).
 	- Adding road network from Open Street Map (OSM): [Mapillary/Adding-road-attributes.py](Mapillary/Adding-road-attributes.py)
 	- Detect Objects through Mapillary API: [Mapillary/Mapillary_detectedobjects.py](Mapillary/Mapillary_detectedobjects.py)
- - 
 ### Metadata
 The meta files include the following information:
 
